@@ -34,4 +34,6 @@
 
     <string name="open">Abierto</string>
     <string name="close">Serrado</string>
+
+    <string name="homeS"></string>
 </resources>

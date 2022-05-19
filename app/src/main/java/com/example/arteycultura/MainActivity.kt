@@ -4,10 +4,12 @@ import android.content.res.Configuration
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
+import android.widget.FrameLayout
 import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
+import androidx.fragment.app.Fragment
 import com.google.android.material.navigation.NavigationView
 
 class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
@@ -34,12 +36,30 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         val navigationView: NavigationView = findViewById(R.id.nav_view)
         navigationView.setNavigationItemSelectedListener(this)
 
+
+        try {
+            replaceFragment(HomeFragment(), "Home")
+        }catch (ex: Exception){
+            Toast.makeText(this, "Error: $ex", Toast.LENGTH_LONG).show()
+        }
+    }
+
+    private fun replaceFragment (fragment: Fragment, title: String){
+
+        val fragmentManager = supportFragmentManager
+        val fragmentTransaction = fragmentManager.beginTransaction()
+        fragmentTransaction.replace(R.id.main_activity_fragment, fragment)
+        fragmentTransaction.commit()
     }
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
-       /* when (item.itemId) {
-            R.id.nav_item_one -> Toast.makeText(this, "Item1", Toast.LENGTH_SHORT).show()
-        } */
+        when (item.itemId) {
+            R.id.nav_item_one -> replaceFragment(BandaFragment(), item.title.toString())
+            R.id.nav_item_two -> replaceFragment(DanceFragment(), item.title.toString())
+            R.id.nav_item_three -> replaceFragment(PaintFragment(), item.title.toString())
+            R.id.nav_item_four -> replaceFragment(CraftsmanFragment(), item.title.toString())
+            else -> Toast.makeText(this, "Fragment no encontrado", Toast.LENGTH_SHORT).show()
+        }
 
         drawer.closeDrawer(GravityCompat.START)
         return true
