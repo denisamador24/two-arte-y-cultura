@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Arte y cultura</string>
+
+    <string name="type">Tipos</string>
+    <string name="phone">Teléfono</string>
+    <string name="number">8467292</string>
+    <string name="name">Nombre</string>
+    <string name="description">Descripción</string>
+    <string name="rang_price">Rango de precio</string>
+    <string name="account">Cuenta</string>
+    <string name="username_or_phone_number">Usuario o número de teléfono</string>
+    <string name="password">Contraseña</string>
+    <string name="sing_in">iniciar sesión</string>
+    <string name="new_Acoount">Crear Cuenta</string>
+    <string name="google">Google</string>
+    <string name="phone_number">Número de teléfono</string>
+    <string name="i_am">Yo soy: </string>
+    <string name="next">Siguiente</string>
+    <string name="price">C$ 20</string>
+    <string name="address">Dirección</string>
+    <string name="add">Agregar</string>
+    <string name="music_banda">Banda musicales</string>
+    <string name="dance_grup">Grupo de baile</string>
+    <string name="crasftman">Artesano</string>
+    <string name="pinter">Pintor</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="product_and_service">Productos y servicios</string>
+    <string name="add_new">Agregar Nuevo</string>
+    <string name="delete">Eliminar</string>
+    <string name="type_music">Tipos de músicas</string>
+    <string name="cumbia">Cumbia</string>
+    <string name="salsa">Salsa</string>
+
+    <string name="open">Abierto</string>
+    <string name="close">Serrado</string>
+</resources>
