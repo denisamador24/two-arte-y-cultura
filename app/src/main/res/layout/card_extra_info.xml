@@ -39,7 +39,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginHorizontal="8dp"
                             android:text="@string/address"
-                            android:textSize="24sp" />
+                            style="@style/TextMd"/>
                     </LinearLayout>
 
                     <TextView
@@ -48,7 +48,7 @@
                         android:layout_marginHorizontal="14dp"
                         android:layout_marginTop="8dp"
                         android:text="location, direccion, location, direccion, location, direccion, location, direccion , location, direccion, location, direccion"
-                        android:textStyle="bold" />
+                        style="@style/TextSm" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
@@ -83,7 +83,7 @@
                             android:layout_marginHorizontal="8dp"
                             android:layout_weight="1"
                             android:text="@string/phone"
-                            android:textSize="24sp" />
+                            style="@style/TextMd" />
 
                         <ImageView
                             android:layout_width="wrap_content"
@@ -97,7 +97,7 @@
                         android:layout_marginHorizontal="32dp"
                         android:text="@string/number"
                         android:textAlignment="center"
-                        android:textSize="18sp"
+                        style="@style/TextSm"
                         android:textStyle="bold" />
                 </LinearLayout>
 

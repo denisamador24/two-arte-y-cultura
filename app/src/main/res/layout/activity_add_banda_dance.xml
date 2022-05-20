@@ -83,13 +83,22 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
 
-                    <TextView
-                        style="@style/TextMd"
+                    <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="32dp"
-                        android:drawableStart="@drawable/icon_trumpet"
-                        android:gravity="center_vertical"
-                        android:text="@string/type_music" />
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="32dp"
+                            android:src="@drawable/icon_trumpet"/>
+                        <TextView
+                            style="@style/TextMd"
+                            android:layout_width="match_parent"
+                            android:layout_height="32dp"
+                            android:gravity="center_vertical"
+                            android:text="@string/type_music" />
+                    </LinearLayout>
 
                     <CheckBox
                         android:layout_width="wrap_content"
@@ -120,13 +129,22 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
 
-                    <TextView
-                        style="@style/TextMd"
+                    <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="32dp"
-                        android:drawableStart="@drawable/icon_dance"
-                        android:gravity="center_vertical"
-                        android:text="Tipos " />
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="32dp"
+                            android:src="@drawable/icon_dance"/>
+                        <TextView
+                            style="@style/TextMd"
+                            android:layout_width="match_parent"
+                            android:layout_height="32dp"
+                            android:gravity="center_vertical"
+                            android:text="Tipos " />
+                    </LinearLayout>
 
                     <CheckBox
                         android:layout_width="wrap_content"

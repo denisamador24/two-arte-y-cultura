@@ -99,19 +99,19 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Pintor"
-                            android:textSize="18sp" />
+                            style="@style/TextSm"/>
 
                         <RadioButton
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Artesano"
-                            android:textSize="18sp" />
+                            style="@style/TextSm"/>
 
                         <RadioButton
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Otros"
-                            android:textSize="18sp" />
+                            style="@style/TextSm"/>
                     </RadioGroup>
                 </LinearLayout>
 

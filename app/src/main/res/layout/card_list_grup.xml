@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    app:cardBackgroundColor="@color/sofw_blue"
+    tools:cardBackgroundColor="@color/sofw_blue"
     style="@style/CardViewListItem"
     >
 
