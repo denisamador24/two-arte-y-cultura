@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/nav_header"
     android:orientation="vertical"
     android:layout_width="match_parent"
@@ -8,7 +9,7 @@
     android:focusable="true"
     android:foreground="?attr/selectableItemBackgroundBorderless"
     android:gravity="center"
-    android:padding="14dp"
+    android:padding="4dp"
     android:theme="@style/ThemeOverlay.AppCompat.Dark"
     android:background="@color/sofw_blue">
 
@@ -22,12 +23,25 @@
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
            android:orientation="vertical">
-           <TextView
+
+           <LinearLayout
                android:layout_width="match_parent"
                android:layout_height="wrap_content"
-               android:text="Mi Perfil"
-               style="@style/TextBig"
-               android:textAlignment="center" />
+               android:orientation="horizontal">
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Mi Perfil"
+                   android:layout_weight="1"
+                   style="@style/TextBig"
+                   android:textAlignment="center" />
+
+               <ImageView
+                   android:layout_width="24dp"
+                   android:layout_height="24dp"
+                   android:src="@drawable/ic_baseline_arrow_forward_24"
+                   app:tint="@color/black" />
+           </LinearLayout>
 
            <LinearLayout
                android:layout_width="match_parent"
@@ -37,17 +51,19 @@
                android:layout_marginTop="8dp">
 
                <de.hdodenhof.circleimageview.CircleImageView
-                   android:layout_width="100dp"
-                   android:layout_height="100dp"
+                   android:layout_width="80dp"
+                   android:layout_height="80dp"
                    android:src="@drawable/ic_baseline_account_circle_24"
                    android:background="@drawable/logo"/>
 
                <TextView
-                   android:layout_width="match_parent"
+                   android:layout_width="wrap_content"
                    android:layout_height="wrap_content"
                    android:text="@string/name"
                    style="@style/TextMd"
-                   android:layout_marginLeft="8dp"/>
+                   android:layout_marginLeft="4dp"/>
+
+
            </LinearLayout>
        </LinearLayout>
     </androidx.cardview.widget.CardView>

@@ -5,6 +5,7 @@
       <map>
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.1" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/drawable/icon_music_note.xml" value="0.2115" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout-land/fragment_home.xml" value="0.18525519848771266" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout-v23/nav_header_main.xml" value="0.1" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/activity_add_banda_dance.xml" value="0.33" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/activity_delete.xml" value="0.22" />
@@ -24,7 +25,7 @@
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/fragment_craftsman.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/fragment_dance.xml" value="0.4531791907514451" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/fragment_grup_category.xml" value="0.1" />
-        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/fragment_home.xml" value="0.2229654403567447" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/fragment_paint.xml" value="0.19010416666666666" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/info_grup.xml" value="0.15" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/nav_header_main.xml" value="0.25" />

@@ -25,12 +25,15 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        var context: Context = this
 
         val toolBar: androidx.appcompat.widget.Toolbar = findViewById(R.id.toolBar_main)
         setSupportActionBar(toolBar)
 
         drawer = findViewById(R.id.drawer_layout)
+       /* val navHeaderCardView = findViewById<CardView>(R.id.nav_header_CardViewProfile)
+        navHeaderCardView.setOnClickListener {
+            intentProfle()
+        } */
 
         toggle = ActionBarDrawerToggle(this, drawer, toolBar, R.string.open, R.string.close)
         drawer.addDrawerListener(toggle)
@@ -39,6 +42,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         supportActionBar?.setHomeButtonEnabled(true)
 
         val navigationView: NavigationView = findViewById(R.id.nav_view)
+        navigationView.itemIconTintList = null
         navigationView.setNavigationItemSelectedListener(this)
 
 
@@ -47,6 +51,11 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         }catch (ex: Exception){
             Toast.makeText(this, "Error: $ex", Toast.LENGTH_LONG).show()
         }
+    }
+
+    fun intentProfle (){
+        intent = Intent(this, MyProfileActivity::class.java)
+        startActivity(intent)
     }
 
     private fun replaceFragment (fragment: Fragment, title: String){
@@ -58,12 +67,16 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     }
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
-        when (item.itemId) {
-            R.id.nav_item_one -> replaceFragment(BandaFragment(), item.title.toString())
-            R.id.nav_item_two -> replaceFragment(DanceFragment(), item.title.toString())
-            R.id.nav_item_three -> replaceFragment(PaintFragment(), item.title.toString())
-            R.id.nav_item_four -> replaceFragment(CraftsmanFragment(), item.title.toString())
-            else -> Toast.makeText(this, "Fragment no encontrado", Toast.LENGTH_SHORT).show()
+        try {
+            when (item.itemId) {
+                R.id.nav_item_one -> replaceFragment(BandaFragment(), item.title.toString())
+                R.id.nav_item_two -> replaceFragment(DanceFragment(), item.title.toString())
+                R.id.nav_item_three -> replaceFragment(PaintFragment(), item.title.toString())
+                R.id.nav_item_four -> replaceFragment(CraftsmanFragment(), item.title.toString())
+                else -> Toast.makeText(this, "Fragment no encontrado", Toast.LENGTH_SHORT).show()
+            }
+        }catch (ex: Exception){
+            Toast.makeText(this, "Error: $ex", Toast.LENGTH_LONG).show()
         }
 
         drawer.closeDrawer(GravityCompat.START)

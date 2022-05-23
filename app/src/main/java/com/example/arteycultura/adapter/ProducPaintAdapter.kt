@@ -15,6 +15,7 @@ class ProducPaintAdapter(val listProduct:List<ProducPaint>) : RecyclerView.Adapt
 
     override fun onBindViewHolder(holder: ProductPaintHolder, position: Int) {
         val item = listProduct[position]
+        holder.render(item)
     }
 
     override fun getItemCount(): Int = listProduct.size

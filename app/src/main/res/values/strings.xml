@@ -35,5 +35,7 @@
     <string name="open">Abierto</string>
     <string name="close">Serrado</string>
 
-    <string name="homeS"></string>
+    <string name="homeDescription">Bienvenido a Arte y cultura\nTe invitamos a seguir descubriendo</string>
+
+    <string name="welcome_home"></string>
 </resources>

@@ -5,24 +5,20 @@
         <item
             android:id="@+id/nav_item_one"
             android:icon="@drawable/icon_trumpet"
-            android:title="Bandas"
-            android:iconTint="@android:color/transparent"/>
+            android:title="Bandas" />
         <item
             android:id="@+id/nav_item_two"
             android:icon="@drawable/icon_dance"
-            android:title="Danza"
-            android:iconTint="@android:color/transparent"/>
+            android:title="Danza" />
 
         <item
             android:id="@+id/nav_item_three"
             android:icon="@drawable/icon_paint"
-            android:title="Pintor"
-            android:iconTint="@android:color/transparent"/>
+            android:title="Pintor" />
 
         <item
             android:id="@+id/nav_item_four"
             android:icon="@drawable/icon_craftsman"
-            android:title="Artesano"
-            android:iconTint="@android:color/transparent"/>
+            android:title="Artesano" />
     </group>
 </menu>
