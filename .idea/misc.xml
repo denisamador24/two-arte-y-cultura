@@ -5,31 +5,32 @@
       <map>
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.1" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/drawable/icon_music_note.xml" value="0.2115" />
-        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout-land/fragment_home.xml" value="0.18525519848771266" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout-land/fragment_home.xml" value="0.67" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout-v23/nav_header_main.xml" value="0.1" />
-        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/activity_add_banda_dance.xml" value="0.33" />
-        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/activity_delete.xml" value="0.22" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/activity_add_banda_dance.xml" value="0.5" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/activity_delete.xml" value="0.5" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/activity_info_grup.xml" value="0.22" />
-        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/activity_info_profile.xml" value="0.20364583333333333" />
-        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/activity_login.xml" value="0.25" />
-        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/activity_my_profile.xml" value="0.25" />
-        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/activity_register_or_edit.xml" value="0.33" />
-        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/activity_regiter_or_edit_two.xml" value="0.22" />
-        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/add_list_category.xml" value="0.25" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/activity_info_profile.xml" value="0.5" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/activity_login.xml" value="0.5" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/activity_my_profile.xml" value="0.5" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/activity_register_or_edit.xml" value="0.5" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/activity_regiter_or_edit_two.xml" value="0.5" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/add_list_category.xml" value="0.5" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/app_bar_main.xml" value="0.1" />
-        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/card_extra_info.xml" value="0.25" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/card_extra_info.xml" value="0.67" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/card_list_grup.xml" value="0.33" />
-        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/card_list_product.xml" value="0.15" />
-        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/fragment_banda.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/card_list_product.xml" value="0.5" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/fragment_banda.xml" value="0.5" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/fragment_craftsman.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/fragment_dance.xml" value="0.4531791907514451" />
-        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/fragment_grup_category.xml" value="0.1" />
-        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/fragment_home.xml" value="0.2229654403567447" />
-        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/fragment_paint.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/fragment_grup_category.xml" value="0.67" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/fragment_home.xml" value="0.3031709203402939" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/fragment_paint.xml" value="0.5" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/info_grup.xml" value="0.15" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/nav_header_main.xml" value="0.25" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/menu/activity_main_drawer.xml" value="0.22" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2095" />
       </map>
     </option>
   </component>
