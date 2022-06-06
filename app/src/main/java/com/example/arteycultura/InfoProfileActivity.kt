@@ -7,6 +7,7 @@ import android.widget.TextView
 import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.arteycultura.component.InfoFragment
 import com.example.arteycultura.data.ListProfiles
 import de.hdodenhof.circleimageview.CircleImageView
 
@@ -22,6 +23,12 @@ class InfoProfileActivity : AppCompatActivity() {
         val nameProduc = findViewById<TextView>(R.id.activityInfoProfile_cardListProduc_name)
         val imageProduct = findViewById<ImageView>(R.id.activityInfoProfile_cardListProduct_Img)
         val description = findViewById<TextView>(R.id.activityInfoProfile_cardLisProduct_description)
+        val infoButton = findViewById<ImageView>(R.id.activityInfoProfile_imageViewInfo)
+
+        infoButton.setOnClickListener {
+            val dialog = InfoFragment("Dirección", "88888888")
+            dialog.show(supportFragmentManager, "Info")
+        }
 
         val propietario = intent.getIntExtra("propietario", 0)
         val nameProduct = intent.getStringExtra("nameProduct")
