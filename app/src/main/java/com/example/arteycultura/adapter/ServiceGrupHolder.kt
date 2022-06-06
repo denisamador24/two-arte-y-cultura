@@ -7,6 +7,7 @@ import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.arteycultura.InfoGrupActivity
 import com.example.arteycultura.R
+import com.example.arteycultura.data.ListFotos
 import com.example.arteycultura.data.ServiceGrup
 import de.hdodenhof.circleimageview.CircleImageView
 
@@ -20,7 +21,7 @@ class ServiceGrupHolder(val view: View): RecyclerView.ViewHolder(view) {
     fun render (serviceListGrup: ServiceGrup) {
         name.text = serviceListGrup.name
         comarca.text = serviceListGrup.comarca
-        img.setImageResource(R.drawable.nica_artesano)
+        img.setImageResource(serviceListGrup.foto)
 
         card.setOnClickListener {
             val intent = Intent(view.context, InfoGrupActivity::class.java)
@@ -29,7 +30,7 @@ class ServiceGrupHolder(val view: View): RecyclerView.ViewHolder(view) {
             intent.putExtra("comarca", serviceListGrup.comarca)
             intent.putExtra("address", serviceListGrup.address)
             intent.putExtra("phoneNumber", serviceListGrup.phoneNumber)
-            //intent.putExtra("listFotoUri", serviceListGrup.listFoto)
+            intent.putExtra("tipo", serviceListGrup.tipos)
             intent.putExtra("grup", "")
             view.context.startActivity(intent)
         }

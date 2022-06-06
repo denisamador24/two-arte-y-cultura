@@ -43,6 +43,7 @@
                     </LinearLayout>
 
                     <TextView
+                        android:id="@+id/cardInfo_addressText"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginHorizontal="14dp"
@@ -92,6 +93,7 @@
                     </LinearLayout>
 
                     <TextView
+                        android:id="@+id/cardInfo_phoneNumberText"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginHorizontal="32dp"
@@ -102,5 +104,12 @@
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/cardInfo_buttonDismiss"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/SecondaryButton"
+                android:text="Cerrar"/>
         </LinearLayout>
     </androidx.cardview.widget.CardView>

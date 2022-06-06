@@ -15,6 +15,16 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
+            <ImageView
+                android:id="@+id/activityInfoGrup_imageViewInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="8dp"
+                android:src="@drawable/ic_baseline_info_24"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
             <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/activityInfoGrup_imageView"
                 android:layout_width="160dp"
@@ -61,10 +71,10 @@
                         android:textSize="24sp"
                         android:layout_gravity="center_horizontal"/>
 
-                    <ListView
-                        android:id="@+id/activityInfoGrup_ListTipos"
-                        android:layout_width="match_parent"
-                        android:layout_height="100dp"/>
+                    <include
+                        android:id="@+id/activityInfoGrup_tipoFolklore"
+                        layout="@layout/item_tipos_folklore"
+                        />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
