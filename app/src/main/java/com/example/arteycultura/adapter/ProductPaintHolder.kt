@@ -25,6 +25,10 @@ class ProductPaintHolder(val view : View): RecyclerView.ViewHolder(view) {
 
         cardView.setOnClickListener {
             val intent = Intent(view.context, InfoProfileActivity::class.java)
+            intent.putExtra("propietario", producPaintModel.propiedtario)
+            intent.putExtra("nameProduct", producPaintModel.name)
+            intent.putExtra("fotoUri", producPaintModel.uriFoto)
+            intent.putExtra("descriptionProduct", producPaintModel.description)
             view.context.startActivity(intent)
         }
     }

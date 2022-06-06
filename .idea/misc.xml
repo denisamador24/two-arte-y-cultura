@@ -9,8 +9,8 @@
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout-v23/nav_header_main.xml" value="0.1" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/activity_add_banda_dance.xml" value="0.5" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/activity_delete.xml" value="0.5" />
-        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/activity_info_grup.xml" value="0.22" />
-        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/activity_info_profile.xml" value="0.5" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/activity_info_grup.xml" value="0.5" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/activity_info_profile.xml" value="0.33" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/activity_login.xml" value="0.5" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/activity_main.xml" value="0.5" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/activity_my_profile.xml" value="0.5" />
@@ -21,7 +21,7 @@
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/card_extra_info.xml" value="0.67" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/card_list_grup.xml" value="0.33" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/card_list_product.xml" value="0.5" />
-        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/fragment_banda.xml" value="0.5" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/fragment_banda.xml" value="0.4708333333333333" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/fragment_craftsman.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/fragment_dance.xml" value="0.4531791907514451" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/Arteycultura/app/src/main/res/layout/fragment_grup_category.xml" value="0.67" />

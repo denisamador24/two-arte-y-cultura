@@ -15,7 +15,7 @@
             android:layout_height="match_parent">
 
             <de.hdodenhof.circleimageview.CircleImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/activityInfoProfile_ImageView"
                 android:layout_width="160dp"
                 android:layout_height="160dp"
                 android:layout_marginStart="14dp"
@@ -25,7 +25,7 @@
                 android:src="@drawable/ic_baseline_account_circle_24" />
 
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/activityInfoProfile_TextName"
                 style="@style/TextMd"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -33,28 +33,68 @@
                 android:layout_marginTop="32dp"
                 android:text="@string/name"
                 android:textStyle="bold"
-                app:layout_constraintStart_toEndOf="@+id/imageView3"
+                app:layout_constraintStart_toEndOf="@+id/activityInfoProfile_ImageView"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/textView4"
+                android:id="@+id/activityInfoProfile_textPrice"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="14dp"
                 android:layout_marginTop="14dp"
                 android:text="@string/rang_price"
-                style="@style/TextMd"
-                app:layout_constraintStart_toEndOf="@+id/imageView3"
-                app:layout_constraintTop_toBottomOf="@+id/textView3" />
+                style="@style/TextSm"
+                app:layout_constraintStart_toEndOf="@+id/activityInfoProfile_ImageView"
+                app:layout_constraintTop_toBottomOf="@+id/activityInfoProfile_TextName" />
 
             <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/activityInfoProfile_RecyclerViewProduc"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="44dp"
+                android:visibility="gone"
                 app:layout_constraintEnd_toEndOf="parent"
-                tools:listitem="@layout/card_list_product"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+                app:layout_constraintTop_toBottomOf="@+id/activityInfoProfile_ImageView" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/activityInfoProfile_cardViewListProduc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:cardBackgroundColor="@color/sofw_blue"
+                style="@style/CardViewListItem"
+                layout="@layout/card_list_product"
+                app:layout_constraintTop_toBottomOf="@id/activityInfoProfile_RecyclerViewProduc"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/activityInfoProfile_cardListProduc_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/TextBig"
+                        android:text="@string/name"/>
+
+                    <ImageView
+                        android:id="@+id/activityInfoProfile_cardListProduct_Img"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_marginVertical="4dp"
+                        android:src="@drawable/nica_artesano"/>
+
+                    <TextView
+                        android:id="@+id/activityInfoProfile_cardLisProduct_description"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/TextMd"
+                        android:text="@string/description"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 

@@ -5,23 +5,28 @@ class ProducPaintProvider {
         val productPaint = listOf<ProducPaint>(
             ProducPaint("Pintura",
                 "Es una pintura muy bonita",
-                R.drawable.nica_artesano
+                R.drawable.nica_artesano,
+                0
             ),
             ProducPaint("Pintura",
                 "Es una pintura muy bonita",
-                R.drawable.nica_artesano
+                R.drawable.nica_artesano,
+                0
             ),
             ProducPaint("Pintura",
                 "Es una pintura muy bonita",
-                R.drawable.nica_artesano
+                R.drawable.nica_artesano,
+                0
             ),
             ProducPaint("Pintura",
                 "Es una pintura muy bonita",
-                R.drawable.nica_artesano
+                R.drawable.nica_artesano,
+                0
             ),
             ProducPaint("Pintura",
                 "Es una pintura muy bonita",
-                R.drawable.nica_artesano
+                R.drawable.nica_artesano,
+                0
             )
 
         )

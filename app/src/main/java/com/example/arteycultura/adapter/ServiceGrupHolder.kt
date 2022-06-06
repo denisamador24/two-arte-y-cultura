@@ -13,7 +13,7 @@ import de.hdodenhof.circleimageview.CircleImageView
 class ServiceGrupHolder(val view: View): RecyclerView.ViewHolder(view) {
 
     val name = view.findViewById<TextView>(R.id.cardListGrup_name)
-    val comarca = view.findViewById<TextView>(R.id.cardListGrup_name)
+    val comarca = view.findViewById<TextView>(R.id.cardListGrup_comarca)
     val img  = view.findViewById<CircleImageView>(R.id.cardListGrup_imageView_profile)
     val card = view.findViewById<CardView>(R.id.cardListGrup)
 
@@ -24,6 +24,10 @@ class ServiceGrupHolder(val view: View): RecyclerView.ViewHolder(view) {
 
         card.setOnClickListener {
             val intent = Intent(view.context, InfoGrupActivity::class.java)
+            intent.putExtra("foto", serviceListGrup.foto)
+            intent.putExtra("name", serviceListGrup.name)
+            intent.putExtra("comarca", serviceListGrup.comarca)
+            intent.putExtra("grup", "")
             view.context.startActivity(intent)
         }
     }

@@ -1,3 +1,3 @@
 package com.example.arteycultura
 
-data class ProducPaint(val name: String, val description: String, val uriFoto: Int)
+data class ProducPaint(val name: String, val description: String, val uriFoto: Int, val propiedtario: Int)
