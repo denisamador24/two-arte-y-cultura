@@ -4,7 +4,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.arteycultura.R
-import com.example.arteycultura.ServiceGrup
+import com.example.arteycultura.data.ServiceGrup
 
 class ServiceGrupAdapter(val serviceList: List<ServiceGrup>): RecyclerView.Adapter<ServiceGrupHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ServiceGrupHolder {

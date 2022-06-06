@@ -7,7 +7,7 @@ import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.arteycultura.InfoGrupActivity
 import com.example.arteycultura.R
-import com.example.arteycultura.ServiceGrup
+import com.example.arteycultura.data.ServiceGrup
 import de.hdodenhof.circleimageview.CircleImageView
 
 class ServiceGrupHolder(val view: View): RecyclerView.ViewHolder(view) {
@@ -27,6 +27,9 @@ class ServiceGrupHolder(val view: View): RecyclerView.ViewHolder(view) {
             intent.putExtra("foto", serviceListGrup.foto)
             intent.putExtra("name", serviceListGrup.name)
             intent.putExtra("comarca", serviceListGrup.comarca)
+            intent.putExtra("address", serviceListGrup.address)
+            intent.putExtra("phoneNumber", serviceListGrup.phoneNumber)
+            //intent.putExtra("listFotoUri", serviceListGrup.listFoto)
             intent.putExtra("grup", "")
             view.context.startActivity(intent)
         }

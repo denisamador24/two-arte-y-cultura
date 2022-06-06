@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.arteycultura.adapter.ProducPaintAdapter
+import com.example.arteycultura.data.ProducPaintProvider
 
 private const val ARG_PARAM1 = "param1"
 private const val ARG_PARAM2 = "param2"

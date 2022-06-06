@@ -73,6 +73,10 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                 R.id.nav_item_two -> replaceFragment(DanceFragment(), item.title.toString())
                 R.id.nav_item_three -> replaceFragment(PaintFragment(), item.title.toString())
                 R.id.nav_item_four -> replaceFragment(CraftsmanFragment(), item.title.toString())
+                R.id.nav_item_profile -> {
+                    val intent = Intent(this, MyProfileActivity::class.java)
+                    startActivity(intent)
+                }
                 else -> Toast.makeText(this, "Fragment no encontrado", Toast.LENGTH_SHORT).show()
             }
         }catch (ex: Exception){

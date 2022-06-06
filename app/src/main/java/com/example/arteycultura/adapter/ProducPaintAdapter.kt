@@ -3,7 +3,7 @@ package com.example.arteycultura.adapter
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.arteycultura.ProducPaint
+import com.example.arteycultura.data.ProducPaint
 import com.example.arteycultura.R
 
 class ProducPaintAdapter(val listProduct:List<ProducPaint>) : RecyclerView.Adapter<ProductPaintHolder>(){

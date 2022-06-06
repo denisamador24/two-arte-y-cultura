@@ -1,25 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <item android:id="@+id/nav_item_profile"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:title="Mi Perfil"/>
 
     <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/nav_item_one"
-            android:icon="@drawable/icon_trumpet"
-            android:title="Bandas" />
-        <item
-            android:id="@+id/nav_item_two"
-            android:icon="@drawable/icon_dance"
-            android:title="Danza" />
 
-        <item
-            android:id="@+id/nav_item_three"
-            android:icon="@drawable/icon_paint"
-            android:title="Pintor" />
+        <item android:title="Grupos">
+            <menu>
+               <group android:checkableBehavior="single">
+                   <item
+                       android:id="@+id/nav_item_one"
+                       android:icon="@drawable/icon_trumpet"
+                       android:title="Bandas" />
+                   <item
+                       android:id="@+id/nav_item_two"
+                       android:icon="@drawable/icon_dance"
+                       android:title="Danza" />
+               </group>
+            </menu>
+        </item>
 
-        <item
-            android:id="@+id/nav_item_four"
-            android:icon="@drawable/icon_craftsman"
-            android:title="Artesano" />
+        <item android:title="Productos">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_item_three"
+                        android:icon="@drawable/icon_paint"
+                        android:title="Pintor" />
+
+                    <item
+                        android:id="@+id/nav_item_four"
+                        android:icon="@drawable/icon_craftsman"
+                        android:title="Artesano" />
+                </group>
+            </menu>
+        </item>
     </group>
 </menu>
