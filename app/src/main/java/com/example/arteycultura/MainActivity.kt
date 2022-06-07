@@ -26,8 +26,9 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val toolBar: androidx.appcompat.widget.Toolbar = findViewById(R.id.toolBar_main)
-        setSupportActionBar(toolBar)
+       val toolBar: androidx.appcompat.widget.Toolbar = findViewById(R.id.toolBar_main)
+       // setSupportActionBar(toolBar) //Aqui esta el error
+
 
         drawer = findViewById(R.id.drawer_layout)
        /* val navHeaderCardView = findViewById<CardView>(R.id.nav_header_CardViewProfile)
